@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "teleporter_pad_dye",
+  "ingredients": [
+    "#teleporterpads:teleporter_pads",
+    "minecraft:light_gray_dye"
+  ],
+  "result": {
+    "id": "teleporterpads:light_gray_teleporter_pad"
+  }
+}

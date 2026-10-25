@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_teleporter_pad": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#teleporterpads:teleporter_pads"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "teleporterpads:pink_teleporter_pad"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_teleporter_pad"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "teleporterpads:pink_teleporter_pad"
+    ]
+  }
+}

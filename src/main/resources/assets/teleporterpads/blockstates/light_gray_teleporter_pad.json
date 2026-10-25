@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "teleporterpads:block/light_gray_teleporter_pad"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "values": [
+    "teleporterpads:white_teleporter_pad",
+    "teleporterpads:orange_teleporter_pad",
+    "teleporterpads:magenta_teleporter_pad",
+    "teleporterpads:light_blue_teleporter_pad",
+    "teleporterpads:yellow_teleporter_pad",
+    "teleporterpads:lime_teleporter_pad",
+    "teleporterpads:pink_teleporter_pad",
+    "teleporterpads:gray_teleporter_pad",
+    "teleporterpads:light_gray_teleporter_pad",
+    "teleporterpads:cyan_teleporter_pad",
+    "teleporterpads:purple_teleporter_pad",
+    "teleporterpads:blue_teleporter_pad",
+    "teleporterpads:brown_teleporter_pad",
+    "teleporterpads:green_teleporter_pad",
+    "teleporterpads:red_teleporter_pad",
+    "teleporterpads:black_teleporter_pad"
+  ]
+}

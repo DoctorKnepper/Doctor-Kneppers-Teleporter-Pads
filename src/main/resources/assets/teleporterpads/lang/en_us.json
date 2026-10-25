@@ -1,0 +1,22 @@
+{
+  "block.teleporterpads.white_teleporter_pad": "White Teleporter Pad",
+  "block.teleporterpads.orange_teleporter_pad": "Orange Teleporter Pad",
+  "block.teleporterpads.magenta_teleporter_pad": "Magenta Teleporter Pad",
+  "block.teleporterpads.light_blue_teleporter_pad": "Light Blue Teleporter Pad",
+  "block.teleporterpads.yellow_teleporter_pad": "Yellow Teleporter Pad",
+  "block.teleporterpads.lime_teleporter_pad": "Lime Teleporter Pad",
+  "block.teleporterpads.pink_teleporter_pad": "Pink Teleporter Pad",
+  "block.teleporterpads.gray_teleporter_pad": "Gray Teleporter Pad",
+  "block.teleporterpads.light_gray_teleporter_pad": "Light Gray Teleporter Pad",
+  "block.teleporterpads.cyan_teleporter_pad": "Cyan Teleporter Pad",
+  "block.teleporterpads.purple_teleporter_pad": "Purple Teleporter Pad",
+  "block.teleporterpads.blue_teleporter_pad": "Blue Teleporter Pad",
+  "block.teleporterpads.brown_teleporter_pad": "Brown Teleporter Pad",
+  "block.teleporterpads.green_teleporter_pad": "Green Teleporter Pad",
+  "block.teleporterpads.red_teleporter_pad": "Red Teleporter Pad",
+  "block.teleporterpads.black_teleporter_pad": "Black Teleporter Pad",
+  "message.teleporterpads.arrived": "%s pad %s of %s",
+  "message.teleporterpads.no_link": "No other %s pad to go to. Place another one of the same color to link them.",
+  "message.teleporterpads.blocked": "Every other %s pad is blocked. Clear the two blocks above one.",
+  "message.teleporterpads.all_gone": "The other %s pads are gone."
+}

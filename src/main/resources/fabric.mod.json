@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "teleporterpads",
+	"version": "${version}",
+	"name": "Teleporter Pads",
+	"description": "Craftable teleporter pads in all 16 dye colors. Stand on a pad to jump to the next pad of the same color you placed, anywhere in the world and in any dimension.",
+	"authors": [
+		"DoctorKnepper"
+	],
+	"contact": {
+		"homepage": "https://github.com/DoctorKnepper/MC-Teleporter-Pads",
+		"sources": "https://github.com/DoctorKnepper/MC-Teleporter-Pads",
+		"issues": "https://github.com/DoctorKnepper/MC-Teleporter-Pads/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/teleporterpads/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.teleporterpads.TeleporterPads"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

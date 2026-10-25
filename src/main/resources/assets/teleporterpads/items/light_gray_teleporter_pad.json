@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "teleporterpads:block/light_gray_teleporter_pad"
+  }
+}

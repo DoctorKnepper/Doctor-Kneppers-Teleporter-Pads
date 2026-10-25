@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "teleporterpads-gametest",
+	"version": "1.0.0",
+	"name": "Teleporter Pads Game Tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"com.teleporterpads.test.TeleporterPadsTests"
+		]
+	},
+	"depends": {
+		"teleporterpads": "*"
+	}
+}

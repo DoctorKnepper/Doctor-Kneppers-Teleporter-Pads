@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "E": "minecraft:ender_pearl",
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:redstone",
+    "S": "minecraft:smooth_stone_slab"
+  },
+  "pattern": [
+    " E ",
+    "IRI",
+    "SSS"
+  ],
+  "result": {
+    "id": "teleporterpads:white_teleporter_pad",
+    "count": 2
+  }
+}

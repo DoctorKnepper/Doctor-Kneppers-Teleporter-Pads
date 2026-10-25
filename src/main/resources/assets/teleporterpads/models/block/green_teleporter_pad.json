@@ -1,0 +1,6 @@
+{
+  "parent": "teleporterpads:block/teleporter_pad",
+  "textures": {
+    "pad": "teleporterpads:block/green_teleporter_pad"
+  }
+}

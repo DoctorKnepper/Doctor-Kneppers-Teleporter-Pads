@@ -1,0 +1,638 @@
+{
+  "parent": "minecraft:block/thin_block",
+  "textures": {
+    "particle": "#pad",
+    "frame": "teleporterpads:block/teleporter_pad_frame",
+    "pylon": "teleporterpads:block/teleporter_pad_pylon"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        1,
+        16
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame"
+        },
+        "north": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            15,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "east"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#frame",
+          "cullface": "down"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        1,
+        2
+      ],
+      "to": [
+        14,
+        2,
+        14
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            14,
+            14
+          ],
+          "texture": "#pad"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#pad"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#pad"
+        },
+        "west": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#pad"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            14,
+            3
+          ],
+          "texture": "#pad"
+        }
+      },
+      "light_emission": 15
+    },
+    {
+      "from": [
+        0.5,
+        1,
+        0.5
+      ],
+      "to": [
+        2.5,
+        2.5,
+        2.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#pylon"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        }
+      }
+    },
+    {
+      "from": [
+        0.75,
+        2.5,
+        0.75
+      ],
+      "to": [
+        2.25,
+        3,
+        2.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            3.5
+          ],
+          "texture": "#pad"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "west": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        }
+      },
+      "light_emission": 15
+    },
+    {
+      "from": [
+        13.5,
+        1,
+        0.5
+      ],
+      "to": [
+        15.5,
+        2.5,
+        2.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#pylon"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        }
+      }
+    },
+    {
+      "from": [
+        13.75,
+        2.5,
+        0.75
+      ],
+      "to": [
+        15.25,
+        3,
+        2.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            3.5
+          ],
+          "texture": "#pad"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "west": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        }
+      },
+      "light_emission": 15
+    },
+    {
+      "from": [
+        0.5,
+        1,
+        13.5
+      ],
+      "to": [
+        2.5,
+        2.5,
+        15.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#pylon"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        }
+      }
+    },
+    {
+      "from": [
+        0.75,
+        2.5,
+        13.75
+      ],
+      "to": [
+        2.25,
+        3,
+        15.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            3.5
+          ],
+          "texture": "#pad"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "west": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        }
+      },
+      "light_emission": 15
+    },
+    {
+      "from": [
+        13.5,
+        1,
+        13.5
+      ],
+      "to": [
+        15.5,
+        2.5,
+        15.5
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#pylon"
+        },
+        "north": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            1.5
+          ],
+          "texture": "#pylon"
+        }
+      }
+    },
+    {
+      "from": [
+        13.75,
+        2.5,
+        13.75
+      ],
+      "to": [
+        15.25,
+        3,
+        15.25
+      ],
+      "faces": {
+        "up": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            3.5
+          ],
+          "texture": "#pad"
+        },
+        "north": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "south": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "west": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        },
+        "east": {
+          "uv": [
+            2,
+            2,
+            3.5,
+            2.5
+          ],
+          "texture": "#pad"
+        }
+      },
+      "light_emission": 15
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    }
+  }
+}
