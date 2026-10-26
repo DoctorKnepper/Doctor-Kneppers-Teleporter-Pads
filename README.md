@@ -1,4 +1,4 @@
-# Teleporter Pads
+# Doctor Knepper's Teleporter Pads
 
 Futuristic teleporter pads in all 16 dye colors. Stand on a pad and it sends you to your other pad of the
 same color: across the world, or into another dimension.

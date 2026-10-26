@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "teleporterpads",
 	"version": "${version}",
-	"name": "Teleporter Pads",
+	"name": "Doctor Knepper's Teleporter Pads",
 	"description": "Craftable teleporter pads in all 16 dye colors. Stand on a pad to jump to the next pad of the same color you placed, anywhere in the world and in any dimension.",
 	"authors": [
 		"DoctorKnepper"
