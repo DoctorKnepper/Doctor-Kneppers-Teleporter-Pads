@@ -44,7 +44,7 @@ Install it on both the client and the server.
 
 ## Installing
 
-Download `teleporter-pads-<version>.jar` from the [releases page](https://github.com/DoctorKnepper/MC-Teleporter-Pads/releases), Modrinth or CurseForge, and put it in your `mods` folder along with Fabric API.
+Download `teleporter-pads-<version>.jar` from the [releases page](https://github.com/DoctorKnepper/Doctor-Kneppers-Teleporter-Pads/releases), Modrinth or CurseForge, and put it in your `mods` folder along with Fabric API.
 
 ## Building from source
 
