@@ -1,30 +1,28 @@
 # Doctor Knepper's Teleporter Pads
 
-Futuristic teleporter pads in all 16 dye colors. Stand on a pad and it sends you to your other pad of the
-same color: across the world, or into another dimension.
+Futuristic teleporter pads in **all 16 dye colors**. Stand on a pad to jump to your other pad of the same color, anywhere in the world and in any dimension.
 
 ![Teleporter Pads](src/main/resources/assets/teleporterpads/icon.png)
 
 ## How it works
 
-- **Craft a pair** (the recipe makes two White Teleporter Pads) and place them anywhere.
-- **Stand on one** for a moment. A swirl of the pad's color rises around you, and then you're on the other pad.
-- **Color is the channel.** Pads only link with pads of the **same color** that **you** placed. With 16 colors
-  you can run 16 separate routes: red to your mine, blue to your farm, purple to your Nether base, and so on.
-- **More than two of one color?** They form a loop in the order you placed them. Each trip takes you to the
-  next pad, and the message on screen tells you which one (for example "Red pad 2 of 3").
-- **Change a pad's color** by using a dye on it, placed or not. You can also craft any pad with a dye.
-- **Distance and dimensions don't matter.** The destination is loaded for you, even in the Nether or the End.
-- After arriving, step off the pad before it will send you on again, so you never bounce straight back.
-- **Sneak** on a pad to stand on it without teleporting.
-- A pad whose two blocks above are blocked is skipped. A pad that was broken is forgotten.
-- Pads glow a little in the dark, and pistons can't move them.
+- **Teleport:** stand on a pad for about 1.5 seconds. A swirl of the pad's color and electric sparks rise around you, then you're on the other pad.
+- **Distance:** no limit, and it works across dimensions. The destination is loaded for you, even in the Nether or the End.
+- **Arriving:** step off the pad before it will send you on again, so you never bounce straight back.
+- **Staying put:** sneak on a pad to stand on it without teleporting.
+- **Blocked pads:** a pad with something in the two blocks above it is skipped. A pad that was broken is forgotten.
+- Pads glow in the dark, and pistons can't move them.
 
-Other players can use your pads too. They go to the next pad of that color in your network.
+## Colors and linking
+
+- Pads only link with pads of the **same color** that **you** placed. With 16 colors you can run 16 separate routes: red to your mine, blue to your farm, purple to your Nether base.
+- **More than two of one color** form a loop, in the order you placed them. Each trip takes you to the next pad, and the screen shows where you are, for example "Red pad 2 of 3".
+- **Change a placed pad's color** by using a dye on it. You can also craft any pad with a dye.
+- Other players can use your pads too. They go to the next pad of that color in **your** network, so nobody else's pads get mixed into yours on a server.
 
 ## Recipes
 
-Teleporter Pad (makes 2 white pads):
+**Teleporter Pad** (makes 2 white pads)
 
 | | | |
 |:-:|:-:|:-:|
@@ -32,9 +30,9 @@ Teleporter Pad (makes 2 white pads):
 | Iron Ingot | Redstone | Iron Ingot |
 | Smooth Stone Slab | Smooth Stone Slab | Smooth Stone Slab |
 
-Recoloring: any Teleporter Pad plus any dye.
+**Colored pads** (shapeless): any Teleporter Pad + any dye
 
-The pad recipe unlocks when you pick up an ender pearl. The dye recipes unlock when you have a pad.
+The pad recipe unlocks when you pick up an ender pearl, and the dye recipes unlock when you have a pad. Pads break quickly by hand or with a pickaxe.
 
 ## Requirements
 
